@@ -498,4 +498,8 @@ template {
 [hidden] {
   display: none;
 }
+
+#nav {
+  position: fixed;
+}
 </style>

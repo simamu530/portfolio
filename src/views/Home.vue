@@ -52,3 +52,14 @@ export default {
   
 }
 </script>
+
+<style lang="scss" scoped>
+  .section {
+    min-height: 100vh;
+    width: 100%;
+  }
+  div#top-wrapper{
+    background: #e3f6f5;
+    height: calc(100vh - 60px);
+  }
+</style>
