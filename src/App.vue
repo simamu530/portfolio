@@ -499,7 +499,18 @@ template {
   display: none;
 }
 
+/*ここから追記*/
 #nav {
   position: fixed;
+  background: #fffe;
+  width: 100%;
+}
+
+@media screen and (min-width:601px) {
+
+#nav {
+  height: 60px;
+  line-height: 60px;
+}  
 }
 </style>

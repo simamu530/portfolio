@@ -38,7 +38,8 @@
 
     <section>
       <div id="contact-wrapper">
-
+        興味持っていただいた方など、何かありましたら連絡お願いします。
+        <form></form>
       </div>
     </section>
   </div>
@@ -54,12 +55,64 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .section {
+  section {
     min-height: 100vh;
     width: 100%;
   }
-  div#top-wrapper{
+  #top-wrapper{
     background: #e3f6f5;
     height: calc(100vh - 60px);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #about-wrapper{
+    background: #fffffe;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  #profile-wrapper{
+    background: #e3f6f5;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  #works-wrapper {
+    background: #fffffe;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  #skill-wrapper {
+    background: #e3f6f5;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  #history-wrapper {
+    background: #fffffe;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  #contact-wrapper {
+    background: #e3f6f5;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
   }
 </style>
