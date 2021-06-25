@@ -2,7 +2,17 @@
   <div class="home">
     <section class="section_top">
       <div class="top-wrapper">
-        <p>ようこそ</p>
+        <h1 class="top_title">
+          Shimamu<br>
+          Library
+        </h1>
+        <div class="palette_wrapper">
+          <div class="palette">
+            <div class="palette_whole">
+
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -73,6 +83,27 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+  }
+  .top_title{
+    font-size: 50px;
+    // color: ;
+  }
+  .palette{
+    border-radius: 90% 10% 80% 20% / 41% 6% 95% 59% ;
+    width: 300px;
+    height: 300px;
+    background-color: #faae66;
+    position: relative;
+  }
+  .palette_whole{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #e3f6f5;
+    position: absolute;
+    bottom: 20px;
+    left: 70px;
   }
   .about-wrapper{
     background: #fffffe;
