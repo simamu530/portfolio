@@ -506,6 +506,11 @@ template {
   width: 100%;
 }
 
+p,
+h1 {
+  color: #272343;
+}
+
 @media screen and (min-width:601px) {
 
 #nav {
